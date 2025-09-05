@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bino Buzz — WhatsApp-based Search</title>
+  <meta name="description" content="Try Bino, a WhatsApp-based search platform. Share with friends, track referrals, and see how fast you can spread the word." />
+  <meta property="og:title" content="Bino Buzz — WhatsApp-based Search" />
+  <meta property="og:description" content="Try Bino on WhatsApp and invite your friends. Awareness campaign with instant share + referral." />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="container">
+    <div class="badge">Mini Awareness Project</div>
+    <h1>Meet <span class="brand">Bino</span> — Find Anything on WhatsApp</h1>
+    <p class="subtitle">One-tap access • Share with friends • Simple referral counter</p>
+    <div class="cta-row">
+      <a id="try-bino" class="btn primary" href="#" target="_blank" rel="noopener">Try on WhatsApp</a>
+      <button id="share-btn" class="btn">Share</button>
+    </div>
+    <p class="note">Your ref code: <span id="ref-code"></span> • Referrals: <span id="ref-count">0</span></p>
+  </header>
+
+  <main class="container grid">
+    <section class="card">
+      <h2>How it works</h2>
+      <ol>
+        <li>Click <em>Try on WhatsApp</em> to DM Bino with a pre-filled message.</li>
+        <li>Share your unique link with friends.</li>
+        <li>Each visit with your code increases your referral counter (local demo).</li>
+      </ol>
+    </section>
+    <section class="card">
+      <h2>Why this helps awareness</h2>
+      <ul>
+        <li>Frictionless: WhatsApp deep link with pre-filled intent.</li>
+        <li>Viral loop: quick share to contacts + groups.</li>
+        <li>Attribution-ready: UTM and <code>?ref=yourname</code> in links.</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>For the Bino team</h2>
+      <ul>
+        <li>Add Google Analytics / Meta Pixel to measure reach.</li>
+        <li>Optionally plug a short-link/redirect service for server-side tracking.</li>
+        <li>Replace the WhatsApp number and message in <code>script.js</code>.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <span>© 2025 Bino Buzz (demo). Built for an interview prompt.</span>
+    <a href="https://github.com/your-username/bino-buzz" target="_blank" rel="noopener">GitHub (template)</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
